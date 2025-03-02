@@ -20,7 +20,6 @@ def ask_question(model, query, vector_store):
     messages = [('system', system_prompt),]
 
     for message in st.session_state.messages:
-        print("Message: ",str(message))
         messages.append((message.get('role'), message.get('content')))
     messages.append(('human', '{input}'))
 
