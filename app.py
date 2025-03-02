@@ -90,7 +90,6 @@ if 'messages' not in st.session_state:
 
 # Campo de entrada para perguntas
 question = st.chat_input("Como posso ajudar?")
-print(f"Pergunta recebida: {question}")
 
 # Função para exibir o histórico de mensagens
 def display_messages():
