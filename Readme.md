@@ -1,32 +1,34 @@
 # ChatDoc - RAG (Retrieval-Augmented Generation)
 
-O ChatDoc é uma aplicação interativa que permite a análise de documentos PDF com base em uma integração com modelos de linguagem da OpenAI. Ele usa uma abordagem de **Retrieval-Augmented Generation (RAG)** para permitir que o modelo acesse informações dos documentos enviados e forneça respostas detalhadas com base no conteúdo desses documentos. Os documentos enviados são processados e armazenados em um banco de dados de vetores (Vector Database) que facilita a extração das informações. O sistema conta também com uma interface bem simples para facilitar o entendimento das funcionalidades. Para utilizá-lo você deve informar uma API Key válida.<br/><br/>
-![image](https://github.com/user-attachments/assets/b5866fce-30cd-4d4f-8097-84509e6ce29e)
+O **ChatDoc** é uma aplicação interativa que permite a análise de documentos PDF, integrando-se com modelos de linguagem da OpenAI. Utilizando a abordagem de **Retrieval-Augmented Generation (RAG)**, o sistema permite que o modelo acesse informações extraídas dos documentos carregados e forneça respostas detalhadas com base no conteúdo desses documentos. Os PDFs enviados são processados e armazenados em um banco de dados vetorial (Vector Database), o que facilita a extração e consulta das informações. O sistema também oferece uma interface intuitiva para melhorar a experiência do usuário.
 
+> **⚠️ Aviso:** Para usar o ChatDoc, você precisará informar uma API Key válida.
+
+![imagem](https://github.com/user-attachments/assets/b5866fce-30cd-4d4f-8097-84509e6ce29e)
 
 ## Funcionalidades
 
-- **Interação com Documentos PDF**: Permite o upload de arquivos PDF para processamento.
-- **Pesquisa Inteligente**: Permite ao usuário fazer perguntas sobre o conteúdo dos documentos carregados.
-- **Suporte a Vários Modelos da OpenAI**: Suporte para escolher entre vários modelos da OpenAI, como `gpt-3.5-turbo`, `gpt-4`, `gpt-4-turbo` e variantes de `gpt-4`.
-- **Validação de API Key**: Verificação automática de validade da chave da API para garantir a integração correta com os modelos da OpenAI. (A Chave não é armazenada para sua segurança, sendo utilizada apenas em tempo de execução.)
-- **Persistência de Dados**: Armazena dados vetoriais dos PDFs processados para consultas futuras.
+- **Interação com Documentos PDF**: Realize o upload de arquivos PDF para processamento e análise.
+- **Pesquisa Inteligente**: Pergunte sobre o conteúdo dos documentos carregados e obtenha respostas detalhadas.
+- **Suporte a Modelos da OpenAI**: Escolha entre modelos como `gpt-3.5-turbo`, `gpt-4`, `gpt-4-turbo` e variantes do `gpt-4`.
+- **Validação de API Key**: O sistema verifica automaticamente a validade da chave de API, sem armazená-la, garantindo a segurança.
+- **Persistência de Dados**: Os dados extraídos dos PDFs são armazenados em um banco de dados vetorial, permitindo consultas rápidas e eficientes.
 
 ## Tecnologias Utilizadas
 
-- **Streamlit**: Framework para criação da interface do usuário.
-- **OpenAI API**: Para interação com modelos de linguagem de IA.
-- **Python**: Linguagem principal usada no projeto.
-- **Pandas**: Para manipulação de dados.
-- **decouple**: Para gerenciamento de variáveis de ambiente.
+- **Streamlit**: Framework utilizado para criar a interface do usuário.
+- **OpenAI API**: Para integrar os modelos de linguagem da OpenAI.
+- **Python**: Linguagem principal do projeto.
+- **Pandas**: Biblioteca para manipulação de dados.
+- **Decouple**: Utilizada para gerenciar variáveis de ambiente.
 - **Vector Databases**: Usado para persistir e buscar dados extraídos dos PDFs.
 
 ## Pré-requisitos
 
-Antes de rodar o projeto, você precisará de:
+Antes de executar o projeto, você precisará de:
 
-- Python 3.x instalado em sua máquina.
-- Uma chave da API da OpenAI válida. Você pode obter uma chave [aqui](https://platform.openai.com/signup).
+- **Python 3.x** instalado em sua máquina.
+- **Uma chave da API da OpenAI válida**. Você pode obter uma chave [aqui](https://platform.openai.com/signup).
 - Instalar as dependências do projeto.
 
 ## Instalação
