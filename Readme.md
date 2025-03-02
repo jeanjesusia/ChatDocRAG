@@ -1,7 +1,8 @@
 # ChatDoc - RAG (Retrieval-Augmented Generation)
 
-ChatDoc é uma aplicação interativa que permite a análise de documentos PDF com base em uma integração com modelos de linguagem da OpenAI. Ele usa uma abordagem de **Retrieval-Augmented Generation (RAG)** para permitir que o modelo acesse informações dos documentos enviados e forneça respostas detalhadas com base no conteúdo desses documentos.
-Os documentos enviados são processados e armazenados em um banco de dados de vetores (Vector Database) que facilita a extração das informações.
+O ChatDoc é uma aplicação interativa que permite a análise de documentos PDF com base em uma integração com modelos de linguagem da OpenAI. Ele usa uma abordagem de **Retrieval-Augmented Generation (RAG)** para permitir que o modelo acesse informações dos documentos enviados e forneça respostas detalhadas com base no conteúdo desses documentos. Os documentos enviados são processados e armazenados em um banco de dados de vetores (Vector Database) que facilita a extração das informações. O sistema conta também com uma interface bem simples para facilitar o entendimento das funcionalidades. Para utilizá-lo você deve informar uma API Key válida.<br/><br/>
+![image](https://github.com/user-attachments/assets/b5866fce-30cd-4d4f-8097-84509e6ce29e)
+
 
 ## Funcionalidades
 
